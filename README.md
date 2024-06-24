@@ -1,15 +1,15 @@
-#Vendor Management System
-Overview
+# Vendor Management System
+# Overview
 The Vendor Management System is a Django-based web application designed to handle vendor profiles, track purchase orders, and calculate vendor performance metrics. It leverages the Django REST Framework to provide RESTful API endpoints for managing vendors and purchase orders.
 
-Features
-Vendor Profile Management
+# Features
+# Vendor Profile Management
 Create, read, update, and delete vendor profiles.
-Purchase Order Tracking
+# Purchase Order Tracking
 Track purchase orders with details like PO number, vendor reference, order date, items, quantity, and status.
-Vendor Performance Evaluation
+# Vendor Performance Evaluation
 Calculate and retrieve performance metrics for vendors including on-time delivery rate, quality rating, average response time, and fulfillment rate.
-Prerequisites
+# Prerequisites
 Python 3.7+
 Django 3.2+
 Django REST Framework
@@ -18,9 +18,9 @@ Clone the Repository
 
 bash
 Copy code
-git clone https://github.com/amitrupwate/djangorestframework
+# git clone https://github.com/amitrupwate/djangorestframework
 cd djangorestframework
-Create and Activate a Virtual Environment
+# Create and Activate a Virtual Environment
 
 bash
 Copy code
@@ -47,8 +47,8 @@ bash
 Copy code
 python manage.py runserver
 API Endpoints
-Vendor Management
-Create a Vendor
+# Vendor Management
+# Create a Vendor
 
 URL: /api/vendors/
 Method: POST
